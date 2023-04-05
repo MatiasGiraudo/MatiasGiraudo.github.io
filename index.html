@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Invitacion Danna</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Sacramento"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playball&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <section class="parallax-container">
+      <div class="parallax">
+        <img src="images/bg1.jpg" class="img-bg" />
+      </div>
+      <section class="container intro" id="home">
+        <header class="center-align">
+          <h1>Danna</h1>
+          <h2>Mi primer añito!</h2>
+          <h2>09.04.2023</h2>
+        </header>
+      </section>
+    </section>
+
+    <section class="parallax-container">
+      <div class="parallax">
+        <img src="images/bg2.jpg" class="img-bg" />
+      </div>
+
+      <section class="info" id="wedding">
+        <div class="row container center-align tdetails">
+          <header class="col s12">
+            <h2>¿Donde y Cuando?</h2>
+          </header>
+        </div>
+
+        <div class="row container">
+          <div class="col s12 center-align">
+            <div class="detail">
+              <h3>Cuando:</h3>
+              <p class="p-detalle">09 de Abril a partir de las 12hs</p>
+            </div>
+          </div>
+
+          <div class="row"></div>
+          <div class="col s12 center-align">
+            <div class="detail">
+              <h3>Donde:</h3>
+              <p class="p-detalle" style="margin-bottom: 0px">
+                De las Gallaretas 23 - Chascomus
+              </p>
+              <div class="col s12 center-align cta" style="margin-top: 0px">
+                <a id="btn-maps"
+                  class="waves-effect waves-red btn-large white"
+                  style="    height: 48px;
+                  background: transparent !important;
+                  color: white; font-size: 12px; border: 2px solid white; border-radius: 5px;"
+                  >como llego?<i class="material-icons right">location_on</i></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="parallax-container">
+      <div class="parallax">
+        <img src="images/bg3.jpg" class="img-bg-alta" />
+      </div>
+
+      <div class="row container center-align rsvp" id="rsvp">
+        <header class="col s12">
+          <h2>Confirmar asistencia</h2>
+          <p class="p-detalle">No te olvides de confirmar tu asistencia!</p>
+        </header>
+
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <input
+                  value=""
+                  id="nombre"
+                  type="text"
+                  class="validate lblForm"
+                  style="margin-bottom: 0px"
+                />
+                <label class="lblForm" for="disabled">Nombre y Apellido</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s6">
+                <input
+                  id="cantMenores"
+                  type="number"
+                  class="validate lblForm"
+                  style="margin-bottom: 0px"
+                />
+                <label class="lblForm" for="cantMenores"
+                  >Cantidad menores</label
+                >
+              </div>
+              <div class="input-field col s6">
+                <input
+                  id="cantAdultos"
+                  type="number"
+                  class="validate lblForm"
+                  style="margin-bottom: 0px"
+                />
+                <label class="lblForm" for="cantAdultos"
+                  >Cantidad adultos</label
+                >
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="col s12 center-align cta" style="margin-top: 0px">
+          <a class="waves-effect waves-red btn-large white" id="botonConfirmar"
+            ><i class="material-icons right">send</i>Confirmar</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
